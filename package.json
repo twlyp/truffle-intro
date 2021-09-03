@@ -1,5 +1,5 @@
 {
-  "name": "Intro-to-truffle",
+  "name": "truffle-intro",
   "version": "1.0.0",
   "description": "",
   "main": "truffle-config.js",
@@ -13,6 +13,9 @@
   "license": "ISC",
   "dependencies": {
     "@openzeppelin/contracts": "^4.2.0",
+    "web3": "^1.4.0"
+  },
+  "devDependencies": {
     "truffle": "^5.3.14"
   }
 }

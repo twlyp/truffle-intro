@@ -1,12 +1,12 @@
-const Volcano = artifacts.require("VolcanoCoin");
+const VolcanoCoin = artifacts.require("VolcanoCoin");
 
 const testAddress = "0xcB7C09fEF1a308143D9bf328F2C33f33FaA46bC2";
 
-contract("Volcano", (accounts) => {
+contract("VolcanoCoin", (accounts) => {
   let instance;
 
   beforeEach(async () => {
-    instance = await Volcano.deployed();
+    instance = await VolcanoCoin.deployed();
   });
 
   it("should mint 10000 VolcanoCoin", async () => {
